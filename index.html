@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="players-form">
+      <h2>Insira os nomes dos jogadores:</h2>
+      <form>
+        <input type="text" id="player1" placeholder="Jogador 1">
+        <input type="text" id="player2" placeholder="Jogador 2">
+        <button id="start-btn">Iniciar</button>
+      </form>
+    </div>
+    <div id="game-board">
+      <table>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      <div><button id="back-btn">Voltar</button>
+      </div>
+      <div id="score"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
